@@ -13,9 +13,10 @@ More details and explanations of the database design and example queries are ava
 
 ## Project Structure
 - **src/**: Contains the SQL scripts for creating and managing the database tables.
-- **docs/**: Additional documentation, including ER diagrams and logical models.
+- **docs/**: Additional documentation, including diagrams and logical models.
 - **notebooks/**: Google Colab notebooks with analysis and examples of database queries.
 - **README.md**: This file, which provides an overview of the project.
+- **LÉEME.md**: Spanish version of this file.
 - **LICENSE**: The project's license file.
 
 ## Usage Instructions
