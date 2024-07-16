@@ -86,7 +86,7 @@ The logical design specifies the structure of the database, including tables, fi
 
 The logical design can be graphically viewed here:
 
-![Conceptual Design](docs/diseño_logico.pdf)
+![Logical Design](docs/diseño_logico.pdf)
 
 ## Example Queries
 Here are some example queries to demonstrate how to interact with the database (all queries were originally written in Spanish and may need to be translated):
@@ -230,7 +230,7 @@ AND reg.fecha <= '2024-05-05'
 ORDER BY nombre_curso DESC;
 ```
 
-### Query 8: Grade students based on their attendance percentage: if above 50%, grade as "good"; otherwise, "call parents"
+### Query 9: Grade students based on their attendance percentage: if above 50%, grade as "good"; otherwise, "call parents"
 ```sql
 WITH asistenciaporalumno AS (
 SELECT al.id_alumno, CONCAT(al.nombres, ' ', al.apellido_paterno, ' ', al.apellido_materno) AS 'nombre_completo',
