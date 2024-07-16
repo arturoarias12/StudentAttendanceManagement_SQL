@@ -5,7 +5,6 @@ This project is designed to manage the attendance records of an educational inst
 
 ## Project Structure
 - **src/**: Contains the SQL scripts for creating and managing the database tables.
-- **data/**: Example data files used for testing the database.
 - **docs/**: Additional documentation, including ER diagrams and logical models.
 - **notebooks/**: Google Colab notebooks with analysis and examples of database queries.
 - **README.md**: This file, which provides an overview of the project.
@@ -49,7 +48,6 @@ Este proyecto está diseñado para gestionar los registros de asistencia de una 
 
 ## Estructura del Proyecto
 - **src/**: Contiene los scripts SQL para crear y gestionar las tablas de la base de datos.
-- **data/**: Archivos de datos de ejemplo utilizados para probar la base de datos.
 - **docs/**: Documentación adicional, incluidos diagramas ER y modelos lógicos.
 - **notebooks/**: Notebooks de Google Colab con análisis y ejemplos de consultas a la base de datos.
 - **README.md**: Este archivo, que proporciona una visión general del proyecto.
