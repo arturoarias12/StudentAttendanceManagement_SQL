@@ -13,7 +13,8 @@ Mayores detalles y el resumen explicativo del diseño de la base datos y ejemplo
 - **src/**: Contiene los scripts SQL para crear y gestionar las tablas de la base de datos.
 - **docs/**: Documentación adicional, incluidos diagramas ER y modelos lógicos.
 - **notebooks/**: Notebooks de Google Colab con análisis y ejemplos de consultas a la base de datos.
-- **README.md**: Este archivo, que proporciona una visión general del proyecto.
+- **LÉEME.md**: Este archivo, que proporciona una visión general del proyecto.
+- **README.md**: Versión en inglés de este archivo.
 - **LICENSE**: El archivo de licencia del proyecto.
 
 ## Instrucciones de Uso
