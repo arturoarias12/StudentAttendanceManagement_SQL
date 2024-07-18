@@ -3,7 +3,7 @@
 > [Read in ENGLISH](README.md)
 
 ## Descripción
-Este proyecto está diseñado para gestionar los registros de asistencia de una institución educativa (escuela) utilizando SQL Server. Incluye la creación y gestión de una base de datos que rastrea la asistencia de los estudiantes, la asignación de profesores y los horarios de clases. La estructura de la base de datos está diseñada para optimizar la asignación de profesores a los cursos y mantener información actualizada sobre la asistencia de los estudiantes, lo que ayuda a la toma de decisiones informadas para la gestión educativa.
+Este proyecto está diseñado para gestionar los registros de asistencia de una institución educativa (colegio) utilizando SQL Server. Incluye la creación y gestión de una base de datos que rastrea la asistencia de los estudiantes, la asignación de profesores y los horarios de clases. La estructura de la base de datos está diseñada para optimizar la asignación de profesores a los cursos y mantener información actualizada sobre la asistencia de los estudiantes, lo que ayuda a la toma de decisiones informadas para la gestión educativa.
 
 Mayores detalles y el resumen explicativo del diseño de la base datos y ejemplos de consultas aquí:
 - [Español](docs/RESUMEN_DEL_DISEÑO_Y_CONSULTAS.md)
