@@ -1,49 +1,47 @@
-# Peruvian National Football Team Results
+# Student Attendance Management with SQL Server
 
 > [Ver en ESPAÑOL](LÉEME.md)
-
 ## Description
-After an exhaustive data gathering process, I have created this ready-to-use database containing the results of every Peruvian national football match, along with important details for analysis. As a big football fan passionate about its statistics, I initially collected this data to share plots and summaries with my friends. Now, I want to share it with the GitHub community. This repository also includes a Python notebook with usage examples.
+This project is designed to manage the attendance records of an educational institution (school) using SQL Server. It includes the creation and management of a database that tracks student attendance, teacher assignments, and class schedules. The database structure is designed to optimize the allocation of teachers to courses and maintain updated information on student attendance, aiding in informed decision-making for educational management.
 
-## Content
-This dataset includes the match results of the Peruvian national football team, starting from their first match against Uruguay on November 1st, 1927, up to the most recent match as of the last update. It covers both official and friendly matches, with three specific exceptions that are not included (see the 'Not considered matches' section below for further details). The file `peru_match_results.csv` contains the following fields:
+More details and explanations of the database design and example queries are available here:
+- [English](docs/DESIGN_EXPLANATION_AND_QUERIES.md)
+- [Spanish](docs/RESUMEN_DEL_DISEÑO_Y_CONSULTAS.md)
 
-- `match_id`: Starting with M followed by the match number in chronological order.
-- `date`: Date of the match.
-- `rival`: Name of the team Peru played against.
-- `rival_confederation`: Confederation where the rival belongs.
-- `peru_score`: Goals scored by Peru in the match.
-- `rival_score`: Goals received by Peru in the match.
-- `peru_awarded_score`: Goals scored by Peru after reviews or sanctions (if any).
-- `rival_awarded_score`: Goals received by Peru after reviews or sanctions (if any).
-- `result`: Match result (W: win, D: draw, L: lose).
-- `shootout_result`: Result of penalty shootout (if applicable).
-- `awarded_result`: Match result after reviews or sanctions (if any).
-- `tournament_name`: Specific name of the tournament (e.g: FIFA World Cup 2018).
-- `tournament_type`: Tournament type (e.g: FIFA World Cup).
-- `official`: Boolean indicating whether the match was official.
-- `stadium`: Name of the stadium where the match was played.
-- `city`: City where the match was played.
-- `country`: Country where the match was played.
-- `elevation`: Elevation (above the sea level) of the city where the match was played.
-- `peru_condition`: Indicates if Peru played as home, away or neutral team.
-- `coach`: Name of the Peruvian team coach at the time of the match.
-- `coach_nationality`: Nationality of the coach.
+> **NOTE:** This project was originally developed completely in Spanish. All English content has been created subsequently for explanation purposes.
+## Project Structure
+- **src/**: Contains the SQL scripts for creating and managing the database tables.
+- **docs/**: Additional documentation, including diagrams and logical models.
+- **notebooks/**: Google Colab notebooks with analysis and examples of database queries.
+- **README.md**: This file, which provides an overview of the project.
+- **LÉEME.md**: Spanish version of this file.
+- **LICENSE**: The project's license file.
 
-## Not considered matches
-Three specific matches were not considered in this database for the following reasons:
+## Usage Instructions
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/arturoarias12/StudentAttendanceManagement_SQL/
+   ```
+2. Execute the SQL scripts in your SQL Server environment to set up the database.
+3. Review the notebooks for additional examples and analyses.
 
-| Match date  | Rival         | Reason                                    |
-|-------------|---------------|-------------------------------------------|
-| 1988-03-26  | Canada        | Peru played with a U19 team.              |
-| 2011-06-28  | Senegal       | Senegal sent an alternative team, possibly U23. |
-| 2013-12-28  | Basque Country| Basque Country is not recognized by FIFA. |
+## Database Design
 
-## Provenance
+### Conceptual Design
+The conceptual design includes the entities and relationships involved in the system, such as Students, Teachers, Courses, Classrooms, and Attendance Records.
 
-The data was gathered from several sources, including but not limited to Sofascore, Google, Wikipedia, FIFA, perufootball.org, Transfermarkt, DeChalaca.com, Facebook, BESOCCER, 11v11.com, Partidos de la Roja, etc.
+### Logical Design
+The logical design specifies the structure of the database, including tables, fields, and relationships.
 
-All data was manually collected via web search.
+### Physical Design
+The physical design includes the SQL scripts for creating the database, creating tables and inserting initial data.
+
+## Authors
+- Alvaro Adrian Condori Anconeira
+- **Arturo Alfredo Arias Aguilar**
+- Carlos Goñi Caicedo
+- Giancarlo Abraham Lopez Ramirez
+- Lindsay Meza Perilla
 
 ## License
-This project is licensed under CC BY-NC-SA 4.0. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under a Custom License. See the [LICENSE](LICENSE) file for more details.
